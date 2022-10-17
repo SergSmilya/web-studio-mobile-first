@@ -15,144 +15,161 @@
 <body>
     <!-- Header -->
     <header class="page-header">
-        <a class="logo" href="/">Web<span>Studio</span></a>
-        <button class="btn__mob-menu" type="button"></button>
-        <nav>
-            <ul>
-                <li><a href="/">Студія</a></li>
-                <li><a href=""></a>Портфоліо</li>
-                <li><a href="/"></a>Контакти</li>
-            </ul>
-            <!-- Contact -->
-            <ul>
-                <li><a href="">+38 096 111 11 11</a></li>
-                <li><a href="">info@devstudio.com</a></li>
-            </ul>
-            <!-- Social -->
-            <ul>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">LinkedIn</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a class="logo" href="/">Web<span class="header-logo--black">Studio</span></a>
+            <button class="btn__mob-menu" type="button"></button>
+            <nav>
+                <ul>
+                    <li><a href="/">Студія</a></li>
+                    <li><a href=""></a>Портфоліо</li>
+                    <li><a href="/"></a>Контакти</li>
+                </ul>
+                <!-- Contact -->
+                <ul>
+                    <li><a href="">+38 096 111 11 11</a></li>
+                    <li><a href="">info@devstudio.com</a></li>
+                </ul>
+                <!-- Social -->
+                <ul class="">
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <!-- Hero -->
-    <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+    <section class="hero-section">
+        <div class="hero__wrap">
+            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="pimary-button" type="button">Замовити послугу</button>
+        </div>
     </section>
     <!-- Benefits -->
-    <section>
-        <ul>
-            <li>
-                <p>УВАГА ДО ДЕТАЛЕЙ</p>
-                <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-            </li>
-            <li>
-                <p>ПУНКТУАЛЬНІСТЬ</p>
-                <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-            </li>
-            <li>
-                <p>ПЛАНУВАННЯ</p>
-                <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-            </li>
-            <li>
-                <p>СУЧАСНІ ТЕХНОЛОГІЇ</p>
-                <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-            </li>
-        </ul>
+    <section class="section">
+        <div class="container">
+            <ul>
+                <li class="benefits-item">
+                    <p class="benefits__title">УВАГА ДО ДЕТАЛЕЙ</p>
+                    <p class="benefits__text">Ідейні міркування, і навіть початок повсякденної роботи з формування
+                        позиції.</p>
+                </li>
+                <li class="benefits-item">
+                    <p class="benefits__title">ПУНКТУАЛЬНІСТЬ</p>
+                    <p class="benefits__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+                    </p>
+                </li>
+                <li class="benefits-item">
+                    <p class="benefits__title">ПЛАНУВАННЯ</p>
+                    <p class="benefits__text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                </li>
+                <li class="benefits-item">
+                    <p class="benefits__title">СУЧАСНІ ТЕХНОЛОГІЇ</p>
+                    <p class="benefits__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+                    </p>
+                </li>
+            </ul>
+        </div>
     </section>
     <!-- Team -->
-    <section>
-        <h2>Наша команда</h2>
-        <ul>
-            <li>
-                <img src="" alt="" width="450px">
-                <h3>Ігор Дем'яненко</h3>
-                <p>Product Designer</p>
-                <!-- Social -->
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </li>
-            <li>
-                <img src="" alt="" width="450px">
-                <h3>Ольга Рєпіна</h3>
-                <p>Frontend Developer</p>
-                <!-- Social -->
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </li>
-            <li>
-                <img src="" alt="" width="450px">
-                <h3>Микола Тарасов</h3>
-                <p>Marketing</p>
-                <!-- Social -->
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </li>
-            <li>
-                <img src="" alt="" width="450px">
-                <h3>Михайло Єрмаков</h3>
-                <p>UI Designer</p>
-                <!-- Social -->
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </li>
-        </ul>
+    <section class="team-section section">
+        <div class="container">
+            <h2 class="team__title">Наша команда</h2>
+            <ul>
+                <li>
+                    <img src="" alt="" width="450px">
+                    <h3 class="team__pre-title">Ігор Дем'яненко</h3>
+                    <p class="team__text">Product Designer</p>
+                    <!-- Social -->
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="" alt="" width="450px">
+                    <h3 class="team__pre-title">Ольга Рєпіна</h3>
+                    <p class="team__text">Frontend Developer</p>
+                    <!-- Social -->
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="" alt="" width="450px">
+                    <h3 class="team__pre-title">Микола Тарасов</h3>
+                    <p class="team__text">Marketing</p>
+                    <!-- Social -->
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="" alt="" width="450px">
+                    <h3 class="team__pre-title">Михайло Єрмаков</h3>
+                    <p class="team__text">UI Designer</p>
+                    <!-- Social -->
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </section>
     <!-- Client -->
-    <section>
-        <h2>Постійні клієнти</h2>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
+    <section class="section">
+        <div class="container">
+            <h2 class="client__title">Постійні клієнти</h2>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </div>
     </section>
     <!-- Footer -->
-    <footer>
-        <a href="/">Web<span>Studio</span></a>
-        <address>м. Київ, пр-т Лесі Українки, 26</address>
-        <ul>
-            <li><a href="">info@devstudio.com</a></li>
-            <li><a href="">+38 096 111 11 11</a></li>
-        </ul>
-        <!-- Social -->
-        <b>приєднуйтесь</b>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
-        <!-- Form -->
-        <form>
-            <b>Підпишіться на розсилку</b>
-            <label for="">
-                <input type="mail">
-            </label>
-            <button type="submit">Підписатися</button>
-        </form>
+    <footer class="footer-section section">
+        <div class="container">
+            <a class="logo footer-logo" href="/">Web<span class="footer-logo--white">Studio</span></a>
+            <ul class="footer-contact__list">
+                <address class="footer__address">м. Київ, пр-т Лесі Українки, 26</address>
+                <li class="footer-contact__item"><a class="footer-contact__link" href="">info@devstudio.com</a></li>
+                <li class="footer-contact__item"><a class="footer-contact__link" href="">+38 096 111 11 11</a></li>
+            </ul>
+            <!-- Social -->
+            <div class="footer-social__wrap">
+                <b class="footer-social__title">приєднуйтесь</b>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <!-- Form -->
+            <form>
+                <b class="form__title">Підпишіться на розсилку</b>
+                <label>
+                    <input class="form__input" type="mail" placeholder="E-mail">
+                </label>
+                <button class="pimary-button" type="submit">Підписатися</button>
+            </form>
+        </div>
     </footer>
 </body>
 

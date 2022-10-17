@@ -1,0 +1,25 @@
+.team-section {
+    background: $team-background;
+    text-align: center;
+}
+
+.team__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    color: $secondary-color-text;
+}
+
+.team__pre-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.18;
+    color: $secondary-color-text;
+}
+
+.team__text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.19;
+}

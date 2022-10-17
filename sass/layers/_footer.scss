@@ -1,0 +1,32 @@
+.footer-section {
+    background: $footer-background;
+    text-align: center;
+    color: $tetriary-color-text;
+}
+
+.footer__address {
+    margin-bottom: 8px;
+    font-style: normal;
+}
+
+.footer-contact__list {
+    margin-bottom: 60px;
+}
+
+.footer-contact__item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.footer-contact__link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-social__wrap {
+    margin-bottom: 20px;
+}
+
+.footer-social__title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
